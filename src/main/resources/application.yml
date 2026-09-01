@@ -1,0 +1,20 @@
+spring:
+  ai:
+    mistralai:
+      # Connects Spring AI to Mistral's network
+      api-key:
+
+embabel:
+  models:
+    # Sets the primary model your agent uses to speak to users
+    defaultLlm: "mistral-medium-2604"
+  agent:
+
+
+    platform:
+      models:
+        mistralai:
+          api-key: 00LleM6p8YWPK1GMSDpWFLrNQKT5y4Ki
+      ranking:
+        # Sets the model used behind the scenes to rank agent actions/tools
+        llm: "mistral-medium-2604"
