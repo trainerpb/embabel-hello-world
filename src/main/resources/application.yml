@@ -1,3 +1,10 @@
+spring:
+  main:
+    web-application-type: servlet # or reactive, depending on your stack
+    shell:
+      interactive:
+        enabled: false
+
 embabel:
   models:
     # Sets the primary model your agent uses to speak to users
@@ -17,5 +24,4 @@ logging:
   level:
     root: INFO
     com.embabel: DEBUG
-
     org.springframework.ai: DEBUG
