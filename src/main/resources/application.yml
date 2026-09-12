@@ -1,9 +1,9 @@
 spring:
   main:
     web-application-type: servlet # or reactive, depending on your stack
-    shell:
-      interactive:
-        enabled: false
+#    shell:
+#      interactive:
+#        enabled: false
 
 embabel:
   models:
@@ -16,12 +16,12 @@ embabel:
       models:
         mistralai:
           api-key: 00LleM6p8YWPK1GMSDpWFLrNQKT5y4Ki
-            # If your version of Spring AI usesAdvisor / Options defaults, try enforcing native formatting:
-          options:
-            enable-native-structured-output: true
+#            # If your version of Spring AI usesAdvisor / Options defaults, try enforcing native formatting:
+#          options:
+#            enable-native-structured-output: true
 
 logging:
   level:
     root: INFO
-    com.embabel: DEBUG
-    org.springframework.ai: DEBUG
+#    com.embabel: DEBUG
+#    org.springframework.ai: DEBUG
