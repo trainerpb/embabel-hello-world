@@ -15,7 +15,7 @@ embabel:
     platform:
       models:
         mistralai:
-          api-key: 00LleM6p8YWPK1GMSDpWFLrNQKT5y4Ki
+          api-key: ${API_KEY}
             # If your version of Spring AI usesAdvisor / Options defaults, try enforcing native formatting:
           options:
             enable-native-structured-output: true
